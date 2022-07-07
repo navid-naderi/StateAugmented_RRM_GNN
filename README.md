@@ -1,6 +1,6 @@
 # State-Augmented Learnable Algorithms for Resource Management in Wireless Networks
 
-This repository contains the source code for learning state-augmented resource management algorithms in wireless networks via graph neural network (GNN) parameterizations. In particular, a GNN policy is trained, which takes as input both the network state at each time step (e.g., the channel gains across the network), as well as the dual variables indicating how much each user satisfies/violates its minimum-rate requirements over time. If run for a long-enough period of time and under mild assumptions, the algorithm is guaranteed to generated resource management decisions that are both feasible (i.e., satisfy the per-user minimum-rate requirements) and near-optimal (i.e., achieve network-wide performance within a constant additive gap of optimum). Please refer to [the accompanying paper](https://arxiv.org/abs/2207.XXXXX) for more details.
+This repository contains the source code for learning state-augmented resource management algorithms in wireless networks via graph neural network (GNN) parameterizations. In particular, a GNN policy is trained, which takes as input both the network state at each time step (e.g., the channel gains across the network), as well as the dual variables indicating how much each user satisfies/violates its minimum-rate requirements over time. If run for a long-enough period of time and under mild assumptions, the algorithm is guaranteed to generated resource management decisions that are both feasible (i.e., satisfy the per-user minimum-rate requirements) and near-optimal (i.e., achieve network-wide performance within a constant additive gap of optimum). Please refer to [the accompanying paper](https://arxiv.org/abs/2207.02242) for more details.
 
 ## Training, Evaluation, and Visualization of Results
 
@@ -42,7 +42,7 @@ Please use the following BibTeX citation to cite the accompanying paper if you u
 @article{StateAugmented_RRM_GNN_naderializadeh2022,
   title={State-Augmented Learnable Algorithms for Resource Management in Wireless Networks},
   author={Navid Naderializadeh and Mark Eisen and Alejandro Ribeiro},
-  journal={arXiv preprint arXiv:2207.XXXXX},
+  journal={arXiv preprint arXiv:2207.02242},
   year={2022}
 }
 ```
